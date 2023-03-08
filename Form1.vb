@@ -17,4 +17,9 @@
         Homework1.Show()
 
     End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        Homework2.Show()
+
+    End Sub
 End Class
