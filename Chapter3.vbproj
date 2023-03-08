@@ -73,6 +73,24 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="activity_1.Designer.vb">
+      <DependentUpon>activity_1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="activity_1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="activity_2.Designer.vb">
+      <DependentUpon>activity_2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="activity_2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="activity_3.Designer.vb">
+      <DependentUpon>activity_3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="activity_3.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -80,10 +98,10 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.vb">
-      <DependentUpon>Form2.vb</DependentUpon>
+    <Compile Include="Homework1.Designer.vb">
+      <DependentUpon>Homework1.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form2.vb">
+    <Compile Include="Homework1.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -103,8 +121,20 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="activity_1.resx">
+      <DependentUpon>activity_1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="activity_2.resx">
+      <DependentUpon>activity_2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="activity_3.resx">
+      <DependentUpon>activity_3.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homework1.resx">
+      <DependentUpon>Homework1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
