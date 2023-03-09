@@ -125,6 +125,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="temperature.Designer.vb">
+      <DependentUpon>temperature.vb</DependentUpon>
+    </Compile>
+    <Compile Include="temperature.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="activity_1.resx">
@@ -150,6 +156,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="temperature.resx">
+      <DependentUpon>temperature.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

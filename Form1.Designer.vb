@@ -28,12 +28,13 @@ Partial Class Form1
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btnLab1
         '
         Me.btnLab1.AutoSize = True
-        Me.btnLab1.Location = New System.Drawing.Point(38, 136)
+        Me.btnLab1.Location = New System.Drawing.Point(37, 93)
         Me.btnLab1.Name = "btnLab1"
         Me.btnLab1.Size = New System.Drawing.Size(180, 60)
         Me.btnLab1.TabIndex = 0
@@ -53,7 +54,7 @@ Partial Class Form1
         'btnLab2
         '
         Me.btnLab2.AutoSize = True
-        Me.btnLab2.Location = New System.Drawing.Point(254, 136)
+        Me.btnLab2.Location = New System.Drawing.Point(253, 93)
         Me.btnLab2.Name = "btnLab2"
         Me.btnLab2.Size = New System.Drawing.Size(180, 60)
         Me.btnLab2.TabIndex = 4
@@ -63,7 +64,7 @@ Partial Class Form1
         'Button2
         '
         Me.Button2.AutoSize = True
-        Me.Button2.Location = New System.Drawing.Point(470, 136)
+        Me.Button2.Location = New System.Drawing.Point(469, 93)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(180, 60)
         Me.Button2.TabIndex = 5
@@ -73,7 +74,7 @@ Partial Class Form1
         'Button1
         '
         Me.Button1.AutoSize = True
-        Me.Button1.Location = New System.Drawing.Point(140, 235)
+        Me.Button1.Location = New System.Drawing.Point(139, 192)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(180, 60)
         Me.Button1.TabIndex = 6
@@ -83,18 +84,29 @@ Partial Class Form1
         'Button3
         '
         Me.Button3.AutoSize = True
-        Me.Button3.Location = New System.Drawing.Point(368, 235)
+        Me.Button3.Location = New System.Drawing.Point(367, 192)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(180, 60)
         Me.Button3.TabIndex = 7
         Me.Button3.Text = "Homework 2 : DAYS OF MONTH"
         Me.Button3.UseVisualStyleBackColor = True
         '
+        'Button4
+        '
+        Me.Button4.AutoSize = True
+        Me.Button4.Location = New System.Drawing.Point(262, 265)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(180, 60)
+        Me.Button4.TabIndex = 8
+        Me.Button4.Text = "Activity : Temperature "
+        Me.Button4.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(699, 337)
+        Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Button2)
@@ -114,4 +126,5 @@ Partial Class Form1
     Friend WithEvents Button2 As Button
     Friend WithEvents Button1 As Button
     Friend WithEvents Button3 As Button
+    Friend WithEvents Button4 As Button
 End Class
