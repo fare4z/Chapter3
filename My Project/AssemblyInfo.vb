@@ -8,11 +8,11 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("Chapter3")>
-<Assembly: AssemblyDescription("")>
-<Assembly: AssemblyCompany("oem")>
+<Assembly: AssemblyTitle("Chapter 3")>
+<Assembly: AssemblyDescription("Visual Basic Programming - Chapter 3  Conditional Statement")>
+<Assembly: AssemblyCompany("Politeknik Seberang Perai")>
 <Assembly: AssemblyProduct("Chapter3")>
-<Assembly: AssemblyCopyright("Copyright © oem 2023")>
+<Assembly: AssemblyCopyright("Copyright © fare4z 2023")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
