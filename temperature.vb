@@ -22,7 +22,8 @@
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim temperature As Integer = TextBox1.Text
 
-        If temperature < 40 Then
+        If temperature >= 40 And temperature <= 43 Then
+            '      If temperature > 40 Then
             Label1.Text = “A little cold, isn’t it?”
         Else
             Label1.Text = “Nice weather we’re having!”
@@ -36,7 +37,7 @@
         Select Case grade
             Case "A"
                 MsgBox("Excellent")
-            Case "B", "C"
+            Case "B", "C", "D"
                 MsgBox("Well Done")
             Case Else
                 MsgBox("Invalid")
@@ -57,7 +58,7 @@
         ElseIf strMonth = "March" Then
             Label4.Text = "30 Days in " + strMonth
         Else
-            Label4.Text = "Invalid" + strMonth
+            Label4.Text = "Invalid"
         End If
     End Sub
 End Class
